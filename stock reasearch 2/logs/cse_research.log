@@ -1,0 +1,116 @@
+2026-01-06 16:05:21,618 - analysis.screeners - INFO - Running value strategy...
+2026-01-06 16:05:21,619 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,621 - analysis.screeners - INFO - After Low P/E: 7 stocks remaining
+2026-01-06 16:05:21,622 - analysis.screeners - INFO - After Low P/B: 5 stocks remaining
+2026-01-06 16:05:21,623 - analysis.screeners - INFO - value: Found 5 stocks
+2026-01-06 16:05:21,623 - analysis.screeners - INFO - Running dividend strategy...
+2026-01-06 16:05:21,624 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,624 - analysis.screeners - INFO - After High Dividend Yield: 11 stocks remaining
+2026-01-06 16:05:21,625 - analysis.screeners - INFO - dividend: Found 11 stocks
+2026-01-06 16:05:21,626 - analysis.screeners - INFO - Running growth strategy...
+2026-01-06 16:05:21,627 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,627 - analysis.screeners - INFO - After High ROE: 11 stocks remaining
+2026-01-06 16:05:21,628 - analysis.screeners - INFO - growth: Found 11 stocks
+2026-01-06 16:05:21,628 - analysis.screeners - INFO - Running garp strategy...
+2026-01-06 16:05:21,629 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,629 - analysis.screeners - INFO - After Good ROE: 14 stocks remaining
+2026-01-06 16:05:21,630 - analysis.screeners - INFO - After P/E not too high: 9 stocks remaining
+2026-01-06 16:05:21,630 - analysis.screeners - INFO - garp: Found 9 stocks
+2026-01-06 16:05:21,630 - analysis.screeners - INFO - Running quality strategy...
+2026-01-06 16:05:21,631 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,631 - analysis.screeners - INFO - After High ROE: 11 stocks remaining
+2026-01-06 16:05:21,632 - analysis.screeners - INFO - quality: Found 7 stocks
+2026-01-06 16:05:21,632 - analysis.screeners - INFO - Running momentum strategy...
+2026-01-06 16:05:21,633 - analysis.screeners - INFO - After Positive Change: 11 stocks remaining
+2026-01-06 16:05:21,634 - analysis.screeners - INFO - momentum: Found 11 stocks
+2026-01-06 16:05:21,634 - analysis.screeners - INFO - Running bargain strategy...
+2026-01-06 16:05:21,634 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,635 - analysis.screeners - INFO - After Very Low P/E: 6 stocks remaining
+2026-01-06 16:05:21,636 - analysis.screeners - INFO - After Below Book: 3 stocks remaining
+2026-01-06 16:05:21,636 - analysis.screeners - INFO - bargain: Found 3 stocks
+2026-01-06 16:05:21,636 - analysis.screeners - INFO - Running blue_chip strategy...
+2026-01-06 16:05:21,637 - analysis.screeners - INFO - After Large Market Cap: 20 stocks remaining
+2026-01-06 16:05:21,638 - analysis.screeners - INFO - After Positive EPS: 20 stocks remaining
+2026-01-06 16:05:21,638 - analysis.screeners - INFO - blue_chip: Found 20 stocks
+2026-01-06 16:05:21,638 - analysis.screeners - INFO - Running 52_week_low strategy...
+2026-01-06 16:05:21,640 - analysis.screeners - INFO - 52_week_low: Found 0 stocks
+2026-01-06 16:05:21,892 - reports.report_generator - INFO - Excel report saved to D:\Projects\CODING\stock reasearch 2\reports\cse_analysis_report_20260106_160521.xlsx
+2026-01-07 08:58:20,770 - scrapers.cse_scraper - INFO - Attempting to fetch data via API...
+2026-01-07 08:58:21,525 - scrapers.api_client - WARNING - Request failed (attempt 1/3): 404 Client Error:  for url: https://www.cse.lk/api/listingsAll
+2026-01-07 08:58:22,678 - scrapers.api_client - WARNING - Request failed (attempt 2/3): 404 Client Error:  for url: https://www.cse.lk/api/listingsAll
+2026-01-07 08:58:24,830 - scrapers.api_client - WARNING - Request failed (attempt 3/3): 404 Client Error:  for url: https://www.cse.lk/api/listingsAll
+2026-01-07 08:58:24,830 - scrapers.api_client - ERROR - All retries failed for https://www.cse.lk/api/listingsAll
+2026-01-07 08:58:24,970 - scrapers.api_client - WARNING - Request failed (attempt 1/3): 404 Client Error:  for url: https://www.cse.lk/api/companyList
+2026-01-07 08:58:26,111 - scrapers.api_client - WARNING - Request failed (attempt 2/3): 404 Client Error:  for url: https://www.cse.lk/api/companyList
+2026-01-07 08:58:28,270 - scrapers.api_client - WARNING - Request failed (attempt 3/3): 404 Client Error:  for url: https://www.cse.lk/api/companyList
+2026-01-07 08:58:28,271 - scrapers.api_client - ERROR - All retries failed for https://www.cse.lk/api/companyList
+2026-01-07 08:58:28,271 - scrapers.api_client - WARNING - Could not fetch company list, trying trade summary
+2026-01-07 08:58:28,405 - scrapers.api_client - WARNING - Request failed (attempt 1/3): 405 Client Error:  for url: https://www.cse.lk/api/tradeSummary?date=2026-01-07
+2026-01-07 08:58:29,547 - scrapers.api_client - WARNING - Request failed (attempt 2/3): 405 Client Error:  for url: https://www.cse.lk/api/tradeSummary?date=2026-01-07
+2026-01-07 08:58:31,689 - scrapers.api_client - WARNING - Request failed (attempt 3/3): 405 Client Error:  for url: https://www.cse.lk/api/tradeSummary?date=2026-01-07
+2026-01-07 08:58:31,689 - scrapers.api_client - ERROR - All retries failed for https://www.cse.lk/api/tradeSummary
+2026-01-07 08:58:31,689 - scrapers.api_client - INFO - Fetching details for 0 companies...
+2026-01-07 08:58:31,690 - scrapers.cse_scraper - INFO - API fetch failed, falling back to web scraping...
+2026-01-07 08:58:31,690 - WDM - INFO - ====== WebDriver manager ======
+2026-01-07 08:58:32,998 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-07 08:58:33,413 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-07 08:58:33,796 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.192" for browser google-chrome "143.0.7499" in cache
+2026-01-07 08:58:33,797 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-07 08:58:34,757 - WDM - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-07 08:58:34,761 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-07 08:58:34,762 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-07 08:58:35,310 - WDM - INFO - Driver downloading response is 200
+2026-01-07 08:58:37,492 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-07 08:58:38,036 - WDM - INFO - Driver has been saved in cache [C:\Users\CHANDEEPA ABHISHEK\.wdm\drivers\chromedriver\win64\143.0.7499.192]
+2026-01-07 08:59:04,120 - scrapers.cse_scraper - ERROR - Error scraping listed companies: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xed1213
+	0xed1254
+	0xcbe6dd
+	0xd093a5
+	0xd0977b
+	0xd50382
+	0xd2b534
+	0xd4db13
+	0xd2b2e6
+	0xcfd321
+	0xcfe1d4
+	0x1125254
+	0x112080b
+	0x113d0ea
+	0xeeb118
+	0xef311d
+	0xed9518
+	0xed96d9
+	0xec3a68
+	0x75285d49
+	0x7704d6db
+	0x7704d661
+
+2026-01-07 08:59:25,575 - scrapers.cse_scraper - ERROR - Error scraping trade summary: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xed1213
+	0xed1254
+	0xcbe6dd
+	0xd093a5
+	0xd0977b
+	0xd50382
+	0xd2b534
+	0xd4db13
+	0xd2b2e6
+	0xcfd321
+	0xcfe1d4
+	0x1125254
+	0x112080b
+	0x113d0ea
+	0xeeb118
+	0xef311d
+	0xed9518
+	0xed96d9
+	0xec3a68
+	0x75285d49
+	0x7704d6db
+	0x7704d661
+
